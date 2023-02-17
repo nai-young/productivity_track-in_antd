@@ -90,5 +90,5 @@ Give a ⭐️ if this you liked this project!
 
 ---
 
-Copyright © 2021 [Naiche L. Young](https://naicheyoung.com).<br />
+Copyright © 2023 [Naiche L. Young](https://naicheyoung.com).<br />
 This project is [GNU GPLv3](./LICENSE) licensed.
