@@ -1,0 +1,25 @@
+{
+  "name": "productivity_track-in",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "frontend": "cd frontend && npm start",
+    "backend": "cd backend/bin && nodemon www",
+    "test": "No test specified.",
+    "dev": "concurrently --kill-others \"npm run backend\" \"npm run frontend\" ",
+    "postinstall": "npm install --prefix ./backend && npm install --prefix ./frontend && npm run build --prefix ./frontend"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^7.6.0",
+    "eslint": "^8.34.0",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^6.1.1",
+    "eslint-plugin-react": "^7.32.2"
+  }
+}
